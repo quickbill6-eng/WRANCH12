@@ -1,10 +1,9 @@
 {
-  "buildCommand": "npm run build",
+  "installCommand": "npm ci",
+  "buildCommand": "npx vite build",
   "outputDirectory": "dist",
   "framework": "vite",
   "functions": {
-    "api/*.ts": {
-      "runtime": "@vercel/node@3.0.0"
-    }
+    "api/*.ts": { "runtime": "@vercel/node@3.0.0" }
   }
 }
