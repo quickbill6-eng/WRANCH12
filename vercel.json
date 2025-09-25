@@ -1,6 +1,4 @@
 {
-  "installCommand": "npx --yes npm@10.8.1 ci",
-  "buildCommand": "node ./node_modules/vite/bin/vite.js build",
   "outputDirectory": "dist",
   "framework": "vite",
   "functions": {
